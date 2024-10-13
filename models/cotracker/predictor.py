@@ -8,9 +8,9 @@ import torch
 import torch.nn.functional as F
 
 from tqdm import tqdm
-from models.cotracker.models.core.cotracker.cotracker import get_points_on_a_grid
-from models.cotracker.models.core.model_utils import smart_cat
-from models.cotracker.models.build_cotracker import (
+from SpaTracker.models.cotracker.models.core.cotracker.cotracker import get_points_on_a_grid
+from SpaTracker.models.cotracker.models.core.model_utils import smart_cat
+from SpaTracker.models.cotracker.models.build_cotracker import (
     build_cotracker,
 )
 

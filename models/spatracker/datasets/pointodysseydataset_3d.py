@@ -11,7 +11,7 @@ import models.spatracker.utils.basic
 import models.spatracker.utils.improc
 import models.spatracker.utils.geom as geom
 import models.spatracker.utils.misc as misc
-from models.spatracker.datasets.utils import CoTrackerData, aug_depth
+from SpaTracker.models.spatracker.datasets.utils import CoTrackerData, aug_depth
 
 
 import glob

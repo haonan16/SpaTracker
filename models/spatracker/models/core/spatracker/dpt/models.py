@@ -2,8 +2,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from models.spatracker.models.core.spatracker.dpt.base_model import BaseModel
-from models.spatracker.models.core.spatracker.dpt.blocks import (
+from SpaTracker.models.spatracker.models.core.spatracker.dpt.base_model import BaseModel
+from SpaTracker.models.spatracker.models.core.spatracker.dpt.blocks import (
     FeatureFusionBlock,
     FeatureFusionBlock_custom,
     Interpolate,

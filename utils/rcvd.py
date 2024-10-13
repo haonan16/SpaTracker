@@ -18,16 +18,16 @@ import torch.nn as nn
 from easydict import EasyDict as edict
 
 # import the tracker
-from models.spatracker_hier.models.build_spatracker import (
+from SpaTracker.models.spatracker_hier.models.build_spatracker import (
     build_spatracker,
 )
-from models.cotracker.models.core.cotracker.cotracker import (
+from SpaTracker.models.cotracker.models.core.cotracker.cotracker import (
     get_points_on_a_grid
 )
-from models.cotracker.utils.visualizer import (
+from SpaTracker.models.cotracker.utils.visualizer import (
     Visualizer, read_video_from_path
 )
-from models.cotracker.models.core.model_utils import bilinear_sample2d
+from SpaTracker.models.cotracker.models.core.model_utils import bilinear_sample2d
 
 
 # import the monocular depth model

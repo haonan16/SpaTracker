@@ -8,15 +8,15 @@ import random
 import numpy as np
 import torch 
 from torch.utils.data import DataLoader
-from models.spatracker.datasets.utils import (
+from SpaTracker.models.spatracker.datasets.utils import (
     collate_fn, dataclass_to_cuda_, collate_fn_train
 )
-from models.spatracker.datasets.tap_vid_datasets import TapVidDataset
-from models.spatracker.datasets.badja_dataset import BadjaDataset
-from models.spatracker.datasets.fast_capture_dataset import FastCaptureDataset
-from models.spatracker.datasets import kubric_movif_dataset
-from models.spatracker.datasets import pointodysseydataset_3d
-from models.spatracker.datasets import drivetrack_dataset
+from SpaTracker.models.spatracker.datasets.tap_vid_datasets import TapVidDataset
+from SpaTracker.models.spatracker.datasets.badja_dataset import BadjaDataset
+from SpaTracker.models.spatracker.datasets.fast_capture_dataset import FastCaptureDataset
+from SpaTracker.models.spatracker.datasets import kubric_movif_dataset
+from SpaTracker.models.spatracker.datasets import pointodysseydataset_3d
+from SpaTracker.models.spatracker.datasets import drivetrack_dataset
 
 def seed_worker(worker_id):
     worker_seed = torch.initial_seed() % 2 ** 32

@@ -19,9 +19,9 @@ import numpy as np
 from PIL import Image
 
 # import zoedepth builder
-from models.monoD.zoeDepth.models.builder import build_model
-from models.monoD.zoeDepth.utils.config import get_config
-from models.monoD.depth_anything.build import DepthAnything
+from SpaTracker.models.monoD.zoeDepth.models.builder import build_model
+from SpaTracker.models.monoD.zoeDepth.utils.config import get_config
+from SpaTracker.models.monoD.depth_anything.build import DepthAnything
 from easydict import EasyDict as edict
 
 class MonoDEst(nn.Module):

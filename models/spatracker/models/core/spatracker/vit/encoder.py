@@ -10,7 +10,7 @@ import torch.nn.functional as F
 
 from typing import Optional, Tuple, Type
 
-from models.spatracker.models.core.spatracker.vit.common import (
+from SpaTracker.models.spatracker.models.core.spatracker.vit.common import (
     LayerNorm2d, MLPBlock
 )
 

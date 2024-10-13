@@ -9,12 +9,12 @@ import torch.nn as nn
 from easydict import EasyDict as edict
 from einops import rearrange
 from sklearn.cluster import SpectralClustering
-from models.spatracker.models.core.spatracker.blocks import Lie
+from SpaTracker.models.spatracker.models.core.spatracker.blocks import Lie
 import matplotlib.pyplot as plt
 import cv2
 
 import torch.nn.functional as F
-from models.spatracker.models.core.spatracker.blocks import (
+from SpaTracker.models.spatracker.models.core.spatracker.blocks import (
     BasicEncoder,
     CorrBlock,
     EUpdateFormer,
@@ -28,14 +28,14 @@ from models.spatracker.models.core.spatracker.blocks import (
     Dinov2
 )
 
-from models.spatracker.models.core.spatracker.feature_net import (
+from SpaTracker.models.spatracker.models.core.spatracker.feature_net import (
     LocalSoftSplat
 )
 
-from models.spatracker.models.core.model_utils import (
+from SpaTracker.models.spatracker.models.core.model_utils import (
     meshgrid2d, bilinear_sample2d, smart_cat, sample_features5d, vis_PCA
 )
-from models.spatracker.models.core.embeddings import (
+from SpaTracker.models.spatracker.models.core.embeddings import (
     get_2d_embedding,
     get_3d_embedding,
     get_1d_sincos_pos_embed_from_grid,
@@ -44,7 +44,7 @@ from models.spatracker.models.core.embeddings import (
     Embedder_Fourier,
 )
 import numpy as np
-from models.spatracker.models.core.spatracker.softsplat import softsplat 
+from SpaTracker.models.spatracker.models.core.spatracker.softsplat import softsplat 
 
 torch.manual_seed(0)
 

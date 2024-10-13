@@ -14,10 +14,10 @@ from functools import partial
 from itertools import repeat
 import torchvision.models as tvm
 
-from models.spatracker.models.core.spatracker.vit.encoder import ImageEncoderViT as vitEnc
-from models.spatracker.models.core.spatracker.dpt.models import DPTEncoder
-from models.spatracker.models.core.spatracker.loftr import LocalFeatureTransformer
-from models.monoD.depth_anything.dpt import DPTHeadEnc, DPTHead
+from SpaTracker.models.spatracker.models.core.spatracker.vit.encoder import ImageEncoderViT as vitEnc
+from SpaTracker.models.spatracker.models.core.spatracker.dpt.models import DPTEncoder
+from SpaTracker.models.spatracker.models.core.spatracker.loftr import LocalFeatureTransformer
+from SpaTracker.models.monoD.depth_anything.dpt import DPTHeadEnc, DPTHead
 
 # From PyTorch internals
 def _ntuple(n):

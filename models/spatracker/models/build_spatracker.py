@@ -6,7 +6,7 @@
 
 import torch
 
-from models.spatracker.models.core.spatracker.spatracker import SpaTracker
+from SpaTracker.models.spatracker.models.core.spatracker.spatracker import SpaTracker
 
 
 def build_spatracker(

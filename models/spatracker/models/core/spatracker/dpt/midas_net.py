@@ -5,8 +5,8 @@ https://github.com/thomasjpfan/pytorch_refinenet/blob/master/pytorch_refinenet/r
 import torch
 import torch.nn as nn
 
-from models.spatracker.models.core.spatracker.dpt.base_model import BaseModel
-from models.spatracker.models.core.spatracker.dpt.blocks import FeatureFusionBlock, Interpolate, _make_encoder
+from SpaTracker.models.spatracker.models.core.spatracker.dpt.base_model import BaseModel
+from SpaTracker.models.spatracker.models.core.spatracker.dpt.blocks import FeatureFusionBlock, Interpolate, _make_encoder
 
 
 class MidasNet_large(BaseModel):

@@ -2,7 +2,7 @@ import torch
 import models.spatracker.utils.basic
 import numpy as np
 import torchvision.ops as ops
-from models.spatracker.utils.basic import print_
+from SpaTracker.models.spatracker.utils.basic import print_
 
 def matmul2(mat1, mat2):
     return torch.matmul(mat1, mat2)

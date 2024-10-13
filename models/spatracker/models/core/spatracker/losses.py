@@ -6,11 +6,11 @@
 
 import torch
 import torch.nn.functional as F
-from models.spatracker.models.core.model_utils import reduce_masked_mean
-from models.spatracker.models.core.spatracker.blocks import (
+from SpaTracker.models.spatracker.models.core.model_utils import reduce_masked_mean
+from SpaTracker.models.spatracker.models.core.spatracker.blocks import (
         pix2cam
 )
-from models.spatracker.models.core.model_utils import (
+from SpaTracker.models.spatracker.models.core.model_utils import (
     bilinear_sample2d
 )
 

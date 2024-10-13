@@ -10,7 +10,7 @@ import torch
 import imageio
 import numpy as np
 
-from models.spatracker.datasets.utils import CoTrackerData, aug_depth
+from SpaTracker.models.spatracker.datasets.utils import CoTrackerData, aug_depth
 from torchvision.transforms import ColorJitter, GaussianBlur
 from PIL import Image
 import cv2

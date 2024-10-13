@@ -10,7 +10,7 @@ import torch
 # from PIL import Image
 import imageio
 import numpy as np
-from models.spatracker.datasets.utils import CoTrackerData, resize_sample
+from SpaTracker.models.spatracker.datasets.utils import CoTrackerData, resize_sample
 
 
 class FastCaptureDataset(torch.utils.data.Dataset):

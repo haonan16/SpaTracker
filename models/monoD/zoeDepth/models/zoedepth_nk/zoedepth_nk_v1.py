@@ -27,21 +27,21 @@ import itertools
 import torch
 import torch.nn as nn
 
-from models.monoD.zoeDepth.models.depth_model import DepthModel
-from models.monoD.zoeDepth.models.base_models.midas import MidasCore
-from models.monoD.zoeDepth.models.layers.attractor import (
+from SpaTracker.models.monoD.zoeDepth.models.depth_model import DepthModel
+from SpaTracker.models.monoD.zoeDepth.models.base_models.midas import MidasCore
+from SpaTracker.models.monoD.zoeDepth.models.layers.attractor import (
     AttractorLayer, AttractorLayerUnnormed
 )
-from models.monoD.zoeDepth.models.layers.dist_layers import (
+from SpaTracker.models.monoD.zoeDepth.models.layers.dist_layers import (
     ConditionalLogBinomial
 )
-from models.monoD.zoeDepth.models.layers.localbins_layers import (
+from SpaTracker.models.monoD.zoeDepth.models.layers.localbins_layers import (
     Projector, SeedBinRegressor, SeedBinRegressorUnnormed
     )
-from models.monoD.zoeDepth.models.layers.patch_transformer import (
+from SpaTracker.models.monoD.zoeDepth.models.layers.patch_transformer import (
     PatchTransformerEncoder
 )
-from models.monoD.zoeDepth.models.model_io import load_state_from_resource
+from SpaTracker.models.monoD.zoeDepth.models.model_io import load_state_from_resource
 
 
 class ZoeDepthNK(DepthModel):

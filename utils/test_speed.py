@@ -9,7 +9,7 @@ import argparse
 import torchvision.transforms as transforms
 
 #-------- import spatialtracker -------------
-from models.spatracker_hier.models.core.spatracker.spatracker import CoTracker
+from SpaTracker.models.spatracker_hier.models.core.spatracker.spatracker import CoTracker
 
 
 model = CoTracker(

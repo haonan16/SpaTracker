@@ -16,7 +16,7 @@ import imageio
 from PIL import Image
 from typing import Mapping, Tuple, Union
 
-from models.spatracker.datasets.utils import CoTrackerData
+from SpaTracker.models.spatracker.datasets.utils import CoTrackerData
 
 DatasetElement = Mapping[str, Mapping[str, Union[np.ndarray, str]]]
 

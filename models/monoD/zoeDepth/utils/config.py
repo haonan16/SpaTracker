@@ -25,9 +25,9 @@
 import json
 import os
 
-from models.monoD.zoeDepth.utils.easydict import EasyDict as edict
+from SpaTracker.models.monoD.zoeDepth.utils.easydict import EasyDict as edict
 
-from models.monoD.zoeDepth.utils.arg_utils import infer_type
+from SpaTracker.models.monoD.zoeDepth.utils.arg_utils import infer_type
 import pathlib
 import platform
 

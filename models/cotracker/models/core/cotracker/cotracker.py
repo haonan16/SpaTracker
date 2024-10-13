@@ -8,14 +8,14 @@ import torch
 import torch.nn as nn
 from einops import rearrange
 
-from models.cotracker.models.core.cotracker.blocks import (
+from SpaTracker.models.cotracker.models.core.cotracker.blocks import (
     BasicEncoder,
     CorrBlock,
     UpdateFormer,
 )
 
-from models.cotracker.models.core.model_utils import meshgrid2d, bilinear_sample2d, smart_cat
-from models.cotracker.models.core.embeddings import (
+from SpaTracker.models.cotracker.models.core.model_utils import meshgrid2d, bilinear_sample2d, smart_cat
+from SpaTracker.models.cotracker.models.core.embeddings import (
     get_2d_embedding,
     get_1d_sincos_pos_embed_from_grid,
     get_2d_sincos_pos_embed,
@@ -160,7 +160,7 @@ class CoTracker(nn.Module):
 
         debug=False
         if debug==True:
-            from models.spatracker_hier.models.core.model_utils import vis_PCA
+            from SpaTracker.models.spatracker_hier.models.core.model_utils import vis_PCA
             import cv2
             import matplotlib.pyplot as plt
             pcd_idx = 43

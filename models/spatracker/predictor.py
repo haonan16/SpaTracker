@@ -9,12 +9,12 @@ import torch.nn.functional as F
 import time
 
 from tqdm import tqdm
-from models.spatracker.models.core.spatracker.spatracker import get_points_on_a_grid
-from models.spatracker.models.core.model_utils import smart_cat
-from models.spatracker.models.build_spatracker import (
+from SpaTracker.models.spatracker.models.core.spatracker.spatracker import get_points_on_a_grid
+from SpaTracker.models.spatracker.models.core.model_utils import smart_cat
+from SpaTracker.models.spatracker.models.build_spatracker import (
     build_spatracker,
 )
-from models.spatracker.models.core.model_utils import (
+from SpaTracker.models.spatracker.models.core.model_utils import (
     meshgrid2d, bilinear_sample2d, smart_cat
 )
 

@@ -17,12 +17,12 @@ import torchvision.transforms as transforms
 
 
 #-------- import cotracker -------------
-from models.cotracker.utils.visualizer import Visualizer, read_video_from_path
-from models.cotracker.predictor import CoTrackerPredictor
+from SpaTracker.models.cotracker.utils.visualizer import Visualizer, read_video_from_path
+from SpaTracker.models.cotracker.predictor import CoTrackerPredictor
 
 #-------- import spatialtracker -------------
-from models.spatracker.predictor import SpaTrackerPredictor
-from models.spatracker.utils.visualizer import Visualizer, read_video_from_path
+from SpaTracker.models.spatracker.predictor import SpaTrackerPredictor
+from SpaTracker.models.spatracker.utils.visualizer import Visualizer, read_video_from_path
 
 #-------- import Depth Estimator -------------
 from mde import MonoDEst

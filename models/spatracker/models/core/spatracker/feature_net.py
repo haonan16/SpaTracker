@@ -8,8 +8,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 # from torch_scatter import scatter_mean, scatter_max
-from models.spatracker.models.core.spatracker.unet import UNet
-from models.spatracker.models.core.model_utils import (
+from SpaTracker.models.spatracker.models.core.spatracker.unet import UNet
+from SpaTracker.models.spatracker.models.core.model_utils import (
     vis_PCA
 )
 from einops import rearrange

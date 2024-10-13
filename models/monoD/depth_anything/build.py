@@ -7,8 +7,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torchvision.transforms import Compose
 
-from models.monoD.depth_anything.dpt import DPT_DINOv2
-from models.monoD.depth_anything.util.transform import (
+from SpaTracker.models.monoD.depth_anything.dpt import DPT_DINOv2
+from SpaTracker.models.monoD.depth_anything.util.transform import (
     Resize, NormalizeImage, PrepareForNet
 )
 
